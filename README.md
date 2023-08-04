@@ -1,1 +1,1 @@
-# myCaluclator
+# myCalculator
