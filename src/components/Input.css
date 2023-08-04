@@ -1,0 +1,78 @@
+.input_1{
+    background-color: grey;
+    height: 500px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_1 .count{
+    text-align: center;
+    color: aliceblue;
+
+}
+.input_1 .First_input, .Second_input{
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.First_input input, .Second_input input{
+    width:150px;
+    height:25px;
+    text-align:center ;
+    border-radius: 5px;
+}
+.input_1.Change_oper .h1{
+    color: aliceblue;
+}
+.input_1 .operator{
+    padding: auto;
+}
+.input_1 .operator button{
+    border-radius: 50%;
+    background-color: coral;
+    width: 50px;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-size-adjust: 1rem;
+    color:aliceblue;
+}
+.operator button{
+    outline: 3px solid white;
+    outline-offset: -5px;
+    transition: 0.5s;
+}
+.operator button:hover{
+    outline-offset: 3px;
+}
+
+.input_1 .reset{
+    padding: 20px;
+}
+
+.input_1 .reset button{
+    padding: 5px;
+    height: 30px;
+    width:75px;
+    cursor:pointer;
+    background-color:dodgerblue;
+    border-radius: 10%;
+    color: aliceblue;
+}
+
+.reset button{
+    outline: 3px solid white;
+    outline-offset: -5px;
+    transition: 0.5s;
+}
+.reset button:hover{
+    outline-offset: 3px;
+}
+
+.reset{
+    text-align: center;
+    color: white;
+}
