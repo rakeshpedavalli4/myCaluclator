@@ -3,7 +3,7 @@ import './Input.css';
 
 function Input(){
 
-    const[Result, setResult] = useState("");
+    const[Result, setResult] = useState("_");
     const[Count,setCount] = useState(0);
     const[Oper,setOper] = useState("+");
     const[input1, setinput1] = useState("");
